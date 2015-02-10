@@ -1,0 +1,168 @@
+/*
+	Theme Name: CODEMIG
+	Date: February 2015
+	Description: CODEMIG responsive
+	Version: 1.0
+	Autor: Target Mutimídia
+	Autor URL: http://www.targetmultimidia.com.br
+		
+*/
+
+@font-face {
+
+	font-family:Helvetica;
+	src: url('font/hel/HelveticaNeueLTStd-Roman.otf');
+	src:url('font/hel/HelveticaNeueLTStd-Roman.otf?#iefix') format('embedded-opentype');
+	font-weight:normal;
+	font-style:normal;
+
+}
+
+
+
+body {
+	/*background-image: url('img/bg.png');*/
+	background-color: #e4e3cb;
+	color: #000305;
+	font-size: 87.5%; /* Base font size is 14px */
+	/*font-family: Arial, 'Lucida Sans Unicode';*/
+	font-family:Helvetica;
+	line-height: 1.5;
+	text-aling: left;
+
+}
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	
+}
+
+a:hover, a:active{
+
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader{
+	height: auto;
+	margin: 3% 0;
+}
+
+
+.mainHeader h1{
+	color: #a5a494;
+	font-size: 3.5em;
+	line-height: 50px;
+	font-style:bold;
+}
+
+
+/*.mainHeader img{
+	width: 30%;
+	height: auto;
+	margin: 10% 0;
+}*/
+
+
+
+.mainHeader nav{
+	/*width: 30%;*/
+	background-color:#FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+}
+
+.mainHeader nav ul{
+	list-style-image: url('img/bullet.png');
+	/*list-style:none;*/
+	padding: 20px 45px;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
+.mainHeader nav ul li{
+	padding: 3px;
+
+	
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color: #666;
+	padding: 5px 3px;
+	
+}
+
+
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+	color: #FFF;
+	background-color: #a5a494;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+
+.mainContent {
+	background-color:#FFF;
+	color: #666;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/*border-style: solid;
+	border-color: #c5c06f;
+    border-width: 2px;*/
+	padding: 20px 40px;
+	overflow: hidden;
+	line-height: 25px;
+}
+
+
+.topcontent h2{
+	
+	font-size: 2.3em;
+	line-height: 40px;
+	
+}
+.topcontent h2 a:link, .topcontent h2 a:visited{
+	color: #a5a494;
+}
+
+content img{
+	/*width: 30%;*/
+	/*float: left;*/
+	max-width:100%;
+	height:auto;
+	margin: 3% 0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-style: solid;
+	border-color: #c5c06f;
+    border-width: 2px;
+}
+
+@media only screen and (min-width:150px) and (max-width: 600px)
+{
+
+.body{
+	
+	width: 90%;
+
+}
+.mainHeader h1{
+	text-align: center;
+}
+
+
+}
